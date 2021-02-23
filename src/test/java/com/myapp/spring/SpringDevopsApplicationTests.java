@@ -1,5 +1,6 @@
 package com.myapp.spring;
 
+<<<<<<< HEAD
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -31,6 +32,14 @@ class SpringDevopsApplicationTests {
 	@Test
 	public void testGetProducts() throws Exception {
 		List<Product> products = new ArrayList<>();
+=======
+//@SpringBootTest
+class SpringDevopsApplicationTests {
+
+//	@Test
+	void contextLoads() {
+	}
+>>>>>>> a76d5d8e8396a21db94cf8eeaed43980b3065342
 
 		Product product1 = new Product();
 		product1.setProductName("Iphone12");
